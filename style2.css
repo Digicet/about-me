@@ -1,5 +1,5 @@
 .box {
-    background-color: rgba(0, 0, 0, 0.402);
+    background-color: rgba(97, 97, 97, 0.402);
     padding: 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -10,16 +10,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 body {
-    background-color: rgb(72, 72, 72);
+    background-color: rgb(33, 33, 33);
     margin: 0;
 }
 
 .title{
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: white;
     text-align: left;
@@ -32,8 +33,9 @@ body {
 }
 
 .text{
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(165, 165, 165);
     text-align: left;
     padding-left: 30px;
     margin-top: 0;
@@ -42,21 +44,61 @@ body {
     padding-bottom: 0;
 }
 
+.line{
+    width: 40px;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(255, 0, 137.69999027252197, 1),hsl(175, 67%, 49%));
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
 .pfp {
     width: 120px;
     height: 120px;
     border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #2f2f2f, #1b1b1b);
 }
 
-.divtext {
+.name{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ion-icon{
+    color: white;
+}
+
+.sidebar {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid #2f2f2f;
+    padding: 5px;
+}
+
+.aboutme {
     margin-left: 20px;
 	font-size: 20px;
 	width: 400px;
 	text-align: left;
 }
-.box-header {
+.box-main {
 	display: flex;
-    align-content: center;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
 }
