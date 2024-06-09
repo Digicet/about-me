@@ -1,0 +1,100 @@
+.box {
+    background-color: rgba(0, 0, 0, 0.402);
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: rgb(72, 72, 72);
+    margin: 0;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.pfp {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.divtext {
+    margin-left: 20px;
+	font-size: 20px;
+	width: 400px;
+	text-align: left;
+}
+.box-header {
+	display: flex;
+    align-content: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.project {
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    padding: 20px 20px;
+    width: 80px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.projects{
+    display: inline-grid;
+    color: #fff;
+    align-items: left;
+    align-content: left;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
